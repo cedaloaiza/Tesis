@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     whatever
+Instances:    310
+Attributes:   4
+              CC
+              APL
+              AS
+              R
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute            0       1
+                (0.71)  (0.29)
+===============================
+CC
+  mean           0.6843  0.6904
+  std. dev.      0.0034   0.007
+  weight sum        222      88
+  precision      0.0002  0.0002
+
+APL
+  mean           2.7783  2.7704
+  std. dev.      0.0992  0.0558
+  weight sum        222      88
+  precision      0.0028  0.0028
+
+AS
+  mean           5.0768    5.03
+  std. dev.      0.0485  0.0555
+  weight sum        222      88
+  precision      0.0026  0.0026
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         255               82.2581 %
+Incorrectly Classified Instances        55               17.7419 %
+Kappa statistic                          0.5263
+Mean absolute error                      0.2317
+Root mean squared error                  0.389 
+Relative absolute error                 56.8839 %
+Root relative squared error             86.2772 %
+Coverage of cases (0.95 level)          96.129  %
+Mean rel. region size (0.95 level)      89.5161 %
+Total Number of Instances              310     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,928    0,443    0,841      0,928    0,882      0,537    0,820     0,904     0
+                 0,557    0,072    0,754      0,557    0,641      0,537    0,820     0,689     1
+Weighted Avg.    0,823    0,338    0,816      0,823    0,814      0,537    0,820     0,843     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 206  16 |   a = 0
+  39  49 |   b = 1
+

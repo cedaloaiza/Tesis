@@ -1,0 +1,71 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     whatever
+Instances:    3542
+Attributes:   5
+              A
+              S
+              J
+              O
+              R
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                Class
+Attribute           0      1
+               (0.95) (0.05)
+=============================
+A
+  1              544.0  154.0
+  0             2821.0   27.0
+  [total]       3365.0  181.0
+
+S
+  1              764.0  123.0
+  0             2601.0   58.0
+  [total]       3365.0  181.0
+
+J
+  0             3264.0   90.0
+  1              101.0   91.0
+  [total]       3365.0  181.0
+
+O
+  0             3174.0  106.0
+  1              191.0   75.0
+  [total]       3365.0  181.0
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3339               94.2688 %
+Incorrectly Classified Instances       203                5.7312 %
+Kappa statistic                          0.4738
+Mean absolute error                      0.067 
+Root mean squared error                  0.2034
+Relative absolute error                 69.6239 %
+Root relative squared error             92.8495 %
+Total Number of Instances             3542     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.962     0.425      0.977     0.962     0.97       0.934    0
+                 0.575     0.038      0.448     0.575     0.504      0.934    1
+Weighted Avg.    0.943     0.405      0.95      0.943     0.946      0.934
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3236  127 |    a = 0
+   76  103 |    b = 1
+
+

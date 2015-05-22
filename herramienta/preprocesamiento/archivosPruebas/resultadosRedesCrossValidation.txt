@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     whatever
+Instances:    310
+Attributes:   5
+              AD
+              CC
+              APL
+              AS
+              R
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute            0       1
+                (0.71)  (0.29)
+===============================
+AD
+  mean           4.3615  4.3337
+  std. dev.      0.0336  0.0379
+  weight sum        222      88
+  precision       0.002   0.002
+
+CC
+  mean           0.6843  0.6904
+  std. dev.      0.0034   0.007
+  weight sum        222      88
+  precision      0.0002  0.0002
+
+APL
+  mean           2.7783  2.7704
+  std. dev.      0.0992  0.0558
+  weight sum        222      88
+  precision      0.0028  0.0028
+
+AS
+  mean           5.0768    5.03
+  std. dev.      0.0485  0.0555
+  weight sum        222      88
+  precision      0.0026  0.0026
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         256               82.5806 %
+Incorrectly Classified Instances        54               17.4194 %
+Kappa statistic                          0.5467
+Mean absolute error                      0.2187
+Root mean squared error                  0.4004
+Relative absolute error                 53.6979 %
+Root relative squared error             88.7927 %
+Coverage of cases (0.95 level)          90.9677 %
+Mean rel. region size (0.95 level)      68.0645 %
+Total Number of Instances              310     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,914    0,398    0,853      0,914    0,883      0,552    0,811     0,895     0
+                 0,602    0,086    0,736      0,602    0,663      0,552    0,811     0,635     1
+Weighted Avg.    0,826    0,309    0,820      0,826    0,820      0,552    0,811     0,821     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 203  19 |   a = 0
+  35  53 |   b = 1
+

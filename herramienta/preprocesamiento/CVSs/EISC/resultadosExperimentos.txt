@@ -1,0 +1,35 @@
+EntrenamientoUnivalle 10 - pruebaUnivalle 11:
+
+Correctly Classified Instances        2005               99.8009 %
+Incorrectly Classified Instances         4                0.1991 %
+
+TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,082    0,998      1,000    0,999      0,957    0,999     1,000     0
+                 0,918    0,000    1,000      0,918    0,957      0,957    0,999     0,979     1
+Weighted Avg.    0,998    0,080    0,998      0,998    0,998      0,957    0,999     0,999    
+
+
+EntrenamientoUnivalle 11 - pruebaUnivalle 12:
+
+Correctly Classified Instances        1548               99.7423 %
+Incorrectly Classified Instances         4                0.2577 %
+
+TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,111    0,997      1,000    0,999      0,942    0,999     1,000     0
+                 0,889    0,000    1,000      0,889    0,941      0,942    0,999     0,969     1
+Weighted Avg.    0,997    0,109    0,997      0,997    0,997      0,942    0,999     0,999     
+
+
+EntrenamientoBase 11 - pruebaBase 12:
+
+Correctly Classified Instances         115               95.0413 %
+Incorrectly Classified Instances         6                4.9587 %
+
+TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,167    0,934      1,000    0,966      0,882    0,975     0,987     0
+                 0,833    0,000    1,000      0,833    0,909      0,882    0,975     0,952     1
+Weighted Avg.    0,950    0,117    0,954      0,950    0,949      0,882    0,975     0,977     
+
+
+Se va a usar entrenamiento con toda la Universidad.
+

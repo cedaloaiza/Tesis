@@ -1,0 +1,22 @@
+***12 - Mal clasificado
+25 - estudiar cómo clasificarlo, no está en O
+***32 - mal clasificado
+33 - predice mal con red sc
+35 - 36 - estudiar cómo clasificarlos
+***45 mal clasificado
+83 estudiar cómo clasificar
+(Idea: que los conceptos estén separados de los profes)
+93 caso muy raro por no estar en O
+99 - seria muy dificil de predecir
+188 - vuelve a fallar por no estar en O
+242 - mal clasificado
+293 - lo predice mal por no estar en O - debería relacionarlo en la red
+
+
+
+
+1630
+sin revista comparar con 2533
+
+Funciona mejor con el NB de Modelo.py al menos clasificando el mismo entrenamiento de Univalle
+

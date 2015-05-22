@@ -1,0 +1,3 @@
+Presicion: 0.4
+Recall: 0.509433962264
+ROC Area: 0.914135648032
